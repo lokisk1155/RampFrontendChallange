@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import  { RenderFlag }  from "./RenderFlag";
+import { RenderFlag } from "./RenderFlag";
 
 function App() {
   const [data, setData] = useState(null);
@@ -43,7 +43,7 @@ export default App;
 
 //       filteredSections.push({
 //         section: section,
-//         main: main, 
+//         main: main,
 //         children: filteredDirectChildren,
 //         grandchildren: articleChildren
 //       });
@@ -53,8 +53,7 @@ export default App;
 
 // console.log(filteredSections);
 
-
-// const validCharacters = [] 
+// const validCharacters = []
 // filteredSections.forEach(({ grandchildren }) => {
 //     validCharacters.push(grandchildren[0].getAttribute('value'));
 // })
